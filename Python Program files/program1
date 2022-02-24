@@ -6,4 +6,4 @@ try:
     avg = (marks1+marks2+marks3-min_marks)/2
     print("The avergae marks is ",avg)
 except:
-    print("Please check your inputs")
+    print("Please check your input")
