@@ -1,0 +1,9 @@
+try:
+    marks1 = float(input("Enter your sub1 score: "))
+    marks2 = float(input("Enter your sub2 score: "))
+    marks3 = float(input("Enter your sub3 score: "))
+    min_marks = min(marks1,marks2,marks3)
+    avg = (marks1+marks2+marks3-min_marks)/2
+    print("The avergae marks is ",avg)
+except:
+    print("Please check your inputs")
